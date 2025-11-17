@@ -10,7 +10,9 @@ public class Main {
         calculadora.sumar(3,4);
         calculadora.sumar(5,6);
         calculadora.restar(5,3);
-        calculadora.restar(9,7);
+        int resultado2 = calculadora.restar(9,7) *2;
+
+        System.out.println("El numero es valido: "+calculadora.validarNumero(20));
 
 
 
