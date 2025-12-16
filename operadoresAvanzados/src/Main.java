@@ -14,5 +14,25 @@ public class Main {
         GestorDocumentos gestorDocumentos = new GestorDocumentos();
         gestorDocumentos.enviarDocumento("Hola", "miguelcarmu98@gmail.com");
 
+
+
+
+    /* Para comparar palabras se hace con xxxx1.equals(xxxxx2) ,
+    si queremos que ignore las diferencias por mayúsculas usamos
+    xxxx1.equalsIgnoreCase(xxxx2)
+    Cifrar con código ASCII y recorriendo una frase, ver en la clase y
+    en apuntes profesor
+    RECOLECTOR DE BASURA(garbage collector): recolectar todas las variables o elementos que no se usen
+    y tengan un valor de null
+    */
+
+    String nombre = "Miguel";
+
+    nombre = null; //Candidata a ser capturada por la garbage collector
+
+    System.gc(); //fuerza la recolleción de elementos en null
+
+
     }
 }
+
